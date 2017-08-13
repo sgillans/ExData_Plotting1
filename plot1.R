@@ -1,7 +1,7 @@
 ## Plot 1
 ### Histogram of Global Active Power in the "household electric power consumption" data set
 
-# Produces a file Plot1.png in the current R working directory
+# Produces a file plot1.png in the current R working directory
 
 library(stringr)
 
