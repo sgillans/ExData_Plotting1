@@ -26,7 +26,7 @@ read_hepc_data <- function(dates_to_include = c("1/2/2007","2/2/2007")) {
                                  "numeric","numeric","numeric","numeric","numeric"))
     rv <- c()
     for (dt in dates_to_include) {
-        rv <- rbind(rv,t[str_detect(t$Date,dt),])
+        rv <- rbind(rv,t[str_detect(t$Date,paste("^",dt,sep="")),])
     }
     file.remove(hepc_zip_filename)
     rv
