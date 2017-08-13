@@ -48,7 +48,7 @@ lines(hepc_data1$DateTime,hepc_data1$Sub_metering_3,col="blue")
 legend("topright",
        names(hepc_data1)[7:9],
        col=c("black","red","blue"),
-       lty=c(1,1),lwd=c(2,2)
+       lty=c(1,1),lwd=c(2,2), bty="n"
        )
 # plot #4 - global reactive power
 
