@@ -1,4 +1,4 @@
-## Plot 1
+## Plot 2
 ### Line chart of Global Active Power in the "household electric power consumption" data set
 
 # Produces a file plot2.png in the current R working directory
